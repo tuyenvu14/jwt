@@ -1,4 +1,4 @@
-package io.javatuyenvu.springsecurityjwt;
+package io.javatuyenvu.springsecurityjwt.controller;
 
 import io.javatuyenvu.springsecurityjwt.model.AuthenticationRequest;
 import io.javatuyenvu.springsecurityjwt.model.AuthenticationResponse;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloResource {
+public class HelloController {
 
     @Autowired
     private AuthenticationManager authenticationManager;

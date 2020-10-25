@@ -1,4 +1,4 @@
-package io.javatuyenvu.springsecurityjwt;
+package io.javatuyenvu.springsecurityjwt.config;
 
 import io.javatuyenvu.springsecurityjwt.filters.JwtRequestFilter;
 import io.javatuyenvu.springsecurityjwt.filters.JwtRequestFilter;
